@@ -57,7 +57,7 @@ function Testimonial2() {
               />
               <div>
                 <p className="font-semibold text-black-900 dark:text-black">{testimonial.name}</p>
-                <p className="text-sm text-black-600 dark:text-black-400">{testimonial.title}</p>
+                {/* <p className="text-sm text-black-600 dark:text-black-400">{testimonial.title}</p> */}
               </div>
             </div>
             <p className="text-base text-black-700 dark:text-black-200 leading-relaxed">
