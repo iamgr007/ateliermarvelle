@@ -54,12 +54,12 @@ const Newsletter = () => {
     setStatus("loading");
 
     try {
-      // Replace with your EmailJS credentials
+      // Use EmailJS credentials from environment variables
       await emailjs.send(
-        "service_483clxn",      // From EmailJS dashboard
-        "template_lwhbmta",     // From EmailJS dashboard
-        { email },              // Form data (matches your template variables)
-        "Uv0J44aYPI3ok_uDp"          // From EmailJS dashboard
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID as string,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID as string,
+        { email },
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY as string
       );
       setStatus("success");
       setEmail("");  // Clear input
