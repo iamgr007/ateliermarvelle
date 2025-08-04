@@ -99,7 +99,7 @@ const cardData: CardData[] = [
   {
     id: 4,
     imageUrl:
-      "assets/images/carousel/4.png",
+      "assets/images/carousel/2.png",
     title: "Tiramisu Brownies",
   },
 

@@ -49,7 +49,7 @@ const Footer = () => {
     {/* Socials RIGHT - center on mobile, right on desktop */}
     <div className="flex justify-center md:justify-end items-center space-x-6">
       <a
-        href="https://instagram.com"
+        href="https://instagram.com/atelier_marvelle"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Instagram"
