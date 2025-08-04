@@ -162,7 +162,7 @@ export default function Carousel() {
         <div className="relative w-full overflow-hidden bg-olive-husk dark:bg-olive-husk">
          
 
-          <div className="relative w-full h-[280px] md:h-[800px] flex items-center justify-center overflow-hidden pt-12">
+          <div className="relative w-full h-[280px] md:h-[600px] flex items-center justify-center overflow-hidden pt-12">
             <motion.div
               className="w-full h-full flex items-center justify-center"
               drag="x"
@@ -238,7 +238,7 @@ function Card({ card, index, activeIndex, totalCards }: CardProps) {
 
   return (
     <motion.div
-      className="absolute w-1/2 md:w-1/3 h-full"
+      className="absolute w-1/2 md:w-1/3 h-[80%]"
       style={{
         transformStyle: "preserve-3d",
       }}
